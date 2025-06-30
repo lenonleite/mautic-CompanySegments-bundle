@@ -51,7 +51,7 @@ In Reports, you now have a new data source "Company Tags" that allows you to fil
 
 To update the Company Segments based on their filter, there is a console command as cron job: `php bin/console leuchtfeuer:abm:segments-update`. It works just like with lead segments.
 
-Event Log is created for each Segment updated in the Company Segments view.
+When you create, update or delete a Company Segment, it is automatically included in audit logs.
 
 ## Troubleshooting
 Make sure you have not only installed but also enabled the Plugin.
